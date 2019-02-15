@@ -27,19 +27,19 @@ def count_elements(array)
 end 
 
 def merge_data(keys, data)
-  new_array = []
-  keys.each do |element|
-    name = element[:first_name]
-    data.each do |hash|
-      hash.each do |key,value|
-        if key == name
-          merged_info = {element.key(name) => name}
-          new_array <<  merged_info.merge(value)
-        end 
-      end 
-    end 
-  end 
-  new_array
+  # new_array = []
+  # keys.each do |element|
+  #   name = element[:first_name]
+  #   data.each do |hash|
+  #     hash.each do |key,value|
+  #       if key == name
+  #         merged_info = {element.key(name) => name}
+  #         new_array <<  merged_info.merge(value)
+  #       end 
+  #     end 
+  #   end 
+  # end 
+  # new_array
 end 
 
 def find_cool(array) 
